@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Do not rewrite existing files/directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# /judith-ratio → portfolio.php?username=judith-ratio
+RewriteRule ^([a-zA-Z0-9-]+)/?$ portfolio.php?username=$1 [L,QSA]

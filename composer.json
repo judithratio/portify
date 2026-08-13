@@ -1,0 +1,11 @@
+{
+  "name": "portify/portfolio-management-system",
+  "description": "Portify web-based portfolio management system",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "google/apiclient": "^2.16",
+    "dompdf/dompdf": "^3.1",
+    "phpmailer/phpmailer": "^7.1"
+  }
+}
